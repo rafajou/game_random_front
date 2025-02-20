@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="" srcset="">
+        </div>
+    </header>
+    <div id="main">
+        <div id="container_game">
+            <div id="game">
+                <div id="capa_carrossel">
+                    <img src="cover.jpg" alt="capa do jogo" srcset="" id="game_cover">
+                </div>
+                
+                <h1 id="title">GOD HAND</h1>
+                <div id="descricao">
+                    <h2 id="genero"><span class="amarelo">Genero:</span> <span id="genero_text">Aventura</span></h2>
+                <h2 id="ano_lancamento"><span class="amarelo">Ano de Lançamento:</span><span id="ano_text">2005</span></h2>
+                <p id="sinopse">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+        <div id="seletor">
+                <label for="console">Escolha um console:</label>
+                <select name="console" id="console-select" >
+                    <option value="">--Selecione um console--</option>
+                    <option value="Nintendo 8Bits">Nintendo - NES</option>
+                    <option value="Super Nintendo">Nintendo - Super Nintendo</option>
+                    <option value="Nintendo 64">Nintendo - Nintendo 64</option>
+                    <option value="GameCube">Nintendo - Game Cube</option>
+                    <option value="Wii">Nintendo - Wii</option>
+                    <option value="WiiU">Nintendo - Wii U</option>
+                    <option value="Switch">Nintendo - Switch</option>
+                    <option value="GameBoy">Nintendo - Game Boy</option>
+                    <option value="GameBoy Color">Nintendo - Game Boy Color</option>
+                    <option value="GameBoy Advance">Nintendo - Game Boy Advance</option>
+                    <option value="Nintendo DS">Nintendo - Nintendo DS</option>
+                    <option value="Nintendo 3DS">Nintendo - Nintendo 3DS</option>
+                    <option value="Master System">Sega - Master System</option>
+                    <option value="Mega Drive">Sega - Mega Drive</option>
+                    <option value="Saturn">Sega - Saturn</option>
+                    <option value="Dreamcast">Sega - Dreamcast</option>
+                    <option value="PS1">Sony - Playstation</option>
+                    <option value="PS2">Sony - Playstation 2</option>
+                    <option value="PS3">Sony - Playstation 3</option>
+                    <option value="PS4">Sony - Playstation 4</option>
+                    <option value="PSP">Sony - PSP</option>
+                    <option value="Xbox">Microsoft - Xbox</option>
+                    <option value="Xbox 360">Microsoft - Xbox 360</option>
+                    <option value="Xbox One">Microsoft - Xbox One</option>
+                </select>
+                <button id="sortear">Sortear</button>  
+        </div>
+    </div>
+    <footer>
+        <img src="logo.png" alt="" srcset="" id="logo_footer">
+        <p>Desenvolvido por Rafael Grisante Dallaqua</p>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>

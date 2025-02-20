@@ -1,0 +1,184 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+header {
+    display: flex;
+    padding-top: 10px;
+    height: 100px;
+    background-color: 	#5744c6;
+    border-bottom: 20px solid #493D9E;
+    background-image: linear-gradient(to right, #5744c6, #271d62);
+}
+
+#logo, #logo img{
+    margin-top: 0px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    box-shadow: #8a8a8a 3px 3px 10px;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+body {
+    margin: 0px;
+    background-color: 	#DAD2FF;
+    background-image: linear-gradient(to right, #DAD2FF, #c8c4dc);
+}
+
+
+
+#title {
+    margin: 15px;
+    color: #493D9E;
+    text-align: center;
+}
+
+
+#container_game {
+    width: 100%;
+    margin-left: 0px;
+    
+}
+
+#seletor {
+    font-size: 20px;
+    padding: 15px;
+}
+
+#descricao {
+    display: block;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #fff;
+    background-color: 	#1d2731;
+    background-image: linear-gradient(to right, #5744c6, #271d62);
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#genero {
+    
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#ano_lancamento {
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+
+#sinopse {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.amarelo {
+    color: #ffcb05;
+}
+
+
+select{
+    border-radius: 2px;
+    height: 35px;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+}
+
+button {
+    margin-left: 15px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #5744c6, #271d62);
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    border-style: none;
+    box-shadow: 3px 3px 10px rgb(157, 157, 157);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+footer{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+        height: 70px;
+        background-color: 	#5744c6;
+        border-top: 10px solid #493D9E;
+        background-image: linear-gradient(to right, #5744c6, #271d62);
+}
+
+#logo_footer{
+    display: inline;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 50px;
+}
+
+footer p{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+#game {
+    width: 100%;
+    display: none;
+}
+
+#capa_carrossel {
+    width: 300px;
+    height: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#game_cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@keyframes girar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Efeito ao parar */
+.finalizado {
+    animation: girar 0.5s ease-in-out;
+}
