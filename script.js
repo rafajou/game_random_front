@@ -12,7 +12,7 @@ function armazenarSelect() {
 
     async function getRandomGame(platform) {
         try {
-            const response = await fetch(`http://localhost:3000/games?platform=${platform}`);
+            const response = await fetch(`https://game-random-backend.onrender.com/games?platform=${platform}`);
             if (!response.ok) throw new Error("Erro ao buscar os jogos");
 
             const games = await response.json();
